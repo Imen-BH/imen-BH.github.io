@@ -139,8 +139,8 @@ section{
 .project-card {
     background-color: #fff;
     border: 3px solid #fff;
-    min-height: 14em;
-    width: 24em;
+    height: 40%;
+    width: 80%;
     overflow: hidden;
     border-radius: 10px;
     margin-top: 60px;
@@ -268,3 +268,234 @@ section{
     padding: 1 12px 0 0;
 }
 
+@media (max-width: 1023px) {
+    /* CSS styles to apply when screen width is less than 1023px */
+    img{
+        width: 100%;
+        height: 100%;
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    /* Change the background image size */
+    .main {
+      background-size: cover;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    /* Move the h3 element a little to the left */
+    .main h3 {
+      margin-left: -80px;
+      flex-basis: 100%;
+    }
+  
+    /* Move the cards a little to the left */
+    .card {
+      margin: 0 10px;
+        }
+  }
+  @media only screen and (max-width: 660px) {
+    .main .name {
+        font-size: 18px;
+      }
+      .main h2 {
+        font-size: 19px;
+      }
+      .main h3 {
+        font-size: 20px;
+     
+      }
+      .main-btn {
+        font-size: 1em;
+        font-weight: 50px;
+      
+      }
+      .projects .title {
+        font-weight: 300px;
+        font-size: 2em;
+      }
+      .project-image img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .project-info {
+        padding: 0.2em;
+    }
+    
+    .project-category {
+        font-size: 0.8em;
+       
+    }
+    
+    .project-title {
+        
+        font-weight: 300px;
+        font-size: 0.8em;
+       
+    }
+    .title {
+        
+        font-size: 2em;
+        font-weight: 350;
+       
+    }
+    .card {
+       
+        width: 18.5em;
+        
+        margin: 15px;
+       
+        margin-left: -2px;
+        
+    }
+    
+    .card .icon {
+       
+        font-size: 4em;
+        text-align: center;
+    }
+   
+   
+    
+    .contact .icon{
+        font-size: 2.5em;
+    }
+    
+    .contact .info h3 {
+        font: 0.6em; 
+    }
+    
+    .contact .info p {
+        font-size: 0.9em;
+        
+    }
+    }
+   
+    header .logo {
+        width: 30px; /* Change the width of the logo */
+      }
+      
+      header nav {
+        font-size: 12px;
+    
+  }
+  /* styles for width 600px or less */
+  @media only screen and (max-width: 600px) {
+    .main .name {
+        font-size: 15px;
+      }
+      .main h2 {
+        font-size: 16px;
+      }
+      .main h3 {
+        font-size: 17px;
+     
+      }
+      .main-btn {
+        font-size: 0.8em;
+        font-weight: 30px;
+      
+      }
+      .projects .title {
+        font-weight: 200px;
+        font-size: 1.7em;
+      }
+      .project-card{
+        width: 50em;
+        height: 14em;
+      }
+      .content{
+        flex-direction: column;
+        align-items: center;
+      }
+        
+      .project-image img{
+        max-width: 100%;
+        height: auto;
+
+    }
+    
+    .project-info {
+        padding: 0.1em;
+    }
+    
+    .project-category {
+        font-size: 0.7em;
+       
+    }
+    
+    .project-title {
+        
+        font-weight: 250px;
+        font-size: 0.6em;
+       
+    }
+    .title {
+        
+        font-size: 1.8em;
+        font-weight: 320;
+       
+    }
+    .card {
+       
+        width: 15.5em;
+      
+       
+        margin-left: -2px;
+        
+    }
+    
+    .card .icon {
+       
+        font-size: 4em;
+        text-align: center;
+    }
+   
+   
+    
+    .contact .icon{
+        font-size: 2.5em;
+    }
+    
+    .contact .info h3 {
+        font: 0.6em; 
+    }
+    
+    .contact .info p {
+        font-size: 0.9em;
+        
+    }
+    }
+    /* styles for width 660px or less */
+    /* for example you can use this to adjust the font-size of the elements*/
+    header .logo {
+        width: 30px; /* Change the width of the logo */
+      }
+      
+      header nav {
+        font-size: 12px;
+    
+  }
+  @media only screen and (max-width: 580px) {
+    .project-card {
+        width: 100%; /* sets the width to 80% of the parent container */
+       height: 50%;
+    }
+    }
+    @media only screen and (max-width: 560px) {
+        .project-card {
+          width: 24em; /* sets the width to 80% of the parent container */
+          min-width:96%;
+        }
+   
+   }
+   @media only screen and (max-width: 480px) {
+    .project-card {
+      width: 80%;
+      min-width: 150px;
+      height: auto;
+      min-height: 150px;
+    }
+  }
